@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  Scrumdinger
-//
-//  Created by 劉宣甫 on 2025/2/6.
-//
-
 import Foundation
 import SwiftData
 
@@ -16,3 +9,4 @@ final class Item {
         self.timestamp = timestamp
     }
 }
+

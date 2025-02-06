@@ -1,10 +1,3 @@
-//
-//  ScrumdingerApp.swift
-//  Scrumdinger
-//
-//  Created by 劉宣甫 on 2025/2/6.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -12,7 +5,7 @@ import SwiftData
 struct ScrumdingerApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Item.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
